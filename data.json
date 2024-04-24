@@ -1,0 +1,86 @@
+<script type="text/javascript">
+	var mediaJSON = { "categories" : [ { "name" : "Movies",
+        "videos" : [ 
+		    { "description" : "Sword Art Online sigue a Kirito en un mundo virtual donde debe completar niveles para salir. La serie explora acción, drama y romance mientras enfrenta desafíos y peligros que afectan su vida real.",
+              "sources" : [ "https://youtu.be/ondZD0FotBI?si=gDDg8QWX6m5J2vhO" ],
+              "subtitle" : "By YouTube",
+              "thumb" : "https://i.ytimg.com/vi/ondZD0FotBI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBIuLMwQWrxLusFZdSq4ZNr5BynJw",
+              "title" : "Kirito vs Heathcliff - Sword Art Online (SAO)"
+            },
+            { "description" : "Tokyo Ghoul sigue a Kaneki, un joven que se convierte en mitad ghoul después de un encuentro violento. Atrapado entre dos mundos, debe luchar contra ghoul y humanos mientras busca su identidad en una Tokio distópica.",
+              "sources" : [ "https://youtu.be/zRdCi2Nju_8?si=CJ6_eynwgw7c4Ywn" ],
+              "subtitle" : "By YouTube",
+              "thumb" : "https://i.ytimg.com/vi/zRdCi2Nju_8/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBErdTftiFxUvsqJE-xG8ZCTqMd5w",
+              "title" : "Tokyo Ghoul"
+            },
+            { "description" : "My Hero Academia sigue a Izuku Midoriya en un mundo donde casi todos tienen superpoderes. A pesar de nacer sin ellos, sueña con convertirse en un héroe y eventualmente obtiene un poder especial de su héroe favorito, All Might. La serie explora su viaje para convertirse en el mejor héroe mientras enfrenta desafíos y enemigos poderosos.",
+              "sources" : [ "https://youtu.be/sVjYSvovF9c?si=jP-AkPLV3fen2YxL" ],
+              "subtitle" : "By YouTube",
+              "thumb" : "https://i.ytimg.com/vi/sVjYSvovF9c/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCC-8eVcSNLBgIcYEH2M0vkLpcE8g",
+              "title" : "My hero academia"
+            },
+            { "description" : "Shigatsu wa Kimi no Uso sigue a Kousei Arima, un prodigio del piano que pierde la capacidad de escuchar su música después de la muerte de su madre. Su vida cambia cuando conoce a Kaori Miyazono, una violinista que lo inspira a redescubrir la belleza de la música. La serie explora temas de amor, pérdida y redención a través de la música clásica.",
+              "sources" : [ "https://youtu.be/n4IqSoI9L8s?si=SuNg2GszcksDChbg" ],
+              "subtitle" : "By YouTube",
+              "thumb" : "https://i.ytimg.com/vi/n4IqSoI9L8s/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLACEvOlDXiaH4Xh55SPkqK7iPyQmA",
+              "title" : "Shigatsu Wa Kimi no Uso"
+            },
+            { "description" : "Attack on Titan sigue a la humanidad luchando por sobrevivir contra gigantes devoradores de humanos llamados Titanes. La historia se centra en Eren Yeager y sus amigos, quienes se unen al ejército para vengar la destrucción de su ciudad natal y descubrir los misterios detrás de los Titanes.",
+              "sources" : [ "https://youtu.be/V297U5tXJNY?si=liYi4uOyTMmPPZTB" ],
+              "subtitle" : "By YouTube",
+              "thumb" : "https://i.ytimg.com/vi/V297U5tXJNY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDXShE5Um2SkxAJrQW7vivlYxebww",
+              "title" : "Attack on titan"
+            },
+            { "description" : "Toilet-bound Hanako-kun sigue a Nene Yashiro, una estudiante que hace un pacto con Hanako-san, un espíritu de un baño escolar, para cumplir sus deseos. La serie combina comedia, romance y elementos sobrenaturales mientras Nene y Hanako enfrentan diversos incidentes paranormales en su escuela.",
+              "sources" : [ "https://youtu.be/xs_mZYV-UIY?si=gtOtYaEpqRa6yjbT" ],
+              "subtitle" : "By YouTube",
+              "thumb" : "https://i.ytimg.com/vi/xs_mZYV-UIY/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIFUoUzAP&rs=AOn4CLDRMwzUoyrJjaEV9p14wOqA7XUc_Q",
+              "title" : "Toilet bound Hanako kun"
+            },
+            { "description" :"Nanatsu no Taizai sigue a un grupo de poderosos caballeros conocidos como los Siete Pecados Capitales, quienes se unen para derrotar a los tiranos que amenazan el reino de Britannia. La serie combina acción, aventura y elementos mágicos mientras los personajes enfrentan desafíos épicos para salvar el mundo.", 
+              "sources" : [ "https://youtu.be/IWWqe4hameM?si=tqDi3i0PLZVDrdUJ" ],
+              "subtitle" : "By YouTube",
+              "thumb" : "https://i.ytimg.com/vi/IWWqe4hameM/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCPw-wt_nk7D1ZCbWXDHZH2AFAPHw",
+              "title" : "Nanatsu no Taizai"
+            },
+			{ "description" : "Kimetsu no Yaiba sigue a Tanjiro Kamado, un joven que se convierte en un cazador de demonios después de que su familia es asesinada por uno. Busca venganza y una cura para su hermana Nezuko, quien se convirtió en un demonio. La serie destaca la lucha de Tanjiro contra los demonios mientras busca una manera de devolver a Nezuko su humanidad.",
+              "sources" : [ "https://youtu.be/h50uJvY0Ikw?si=Pdd7ShNAnve1Q3Cu" ],
+              "subtitle" : "By YouTube",
+              "thumb" : "https://i.ytimg.com/vi/h50uJvY0Ikw/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCfax-jIb5ss9W5b9ZXYvZr1wfeqg",
+              "title" : "Kimetsu No Yaiba"
+            },
+			{ "description" : "Komi Can't Communicate sigue la historia de Shoko Komi, una estudiante increíblemente hermosa pero extremadamente tímida que lucha por comunicarse con los demás. Tadano, un estudiante promedio, se convierte en su compañero de clase y juntos intentan ayudar a Komi a cumplir su objetivo de hacer 100 amigos. La serie combina comedia, romance y exploraciones sobre la ansiedad social.",
+              "sources" : [ "https://youtu.be/udhAqtLyDxI?si=5MVpIbbv90BgIeJb" ],
+              "subtitle" : "By YouTube",
+              "thumb" : "https://i.ytimg.com/vi/udhAqtLyDxI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB5qkX2pyX3VxKwPlOzNyj3NFwZbg",
+              "title" : "Komi no puede comunicarse"
+            },
+			{ "description" : "Tonikawa: Over the Moon for You sigue la historia de Nasa Yuzaki, un joven que se enamora a primera vista de Tsukasa Tsukuyomi y la invita a casarse con él. La serie sigue su vida matrimonial mientras navegan por los desafíos y las alegrías del matrimonio, todo mientras Tsukasa guarda un misterioso secreto.", 
+              "sources" : [ "https://youtu.be/iXKAwBizSSc?si=V0wYVMu8mvAt54CN" ],
+              "subtitle" : "By YouTube",
+              "thumb" : "https://i.ytimg.com/vi/iXKAwBizSSc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA51AhybYrILSgzzbXrsC_mQULTjA",
+              "title" : "Tonikawa over the moon"
+            },
+			{ "description" : "Oshi no Ko sigue la vida de Hikaru Hoshina, una estrella infantil que es manipulada por su madre para mantener su fama. La serie explora temas de la industria del entretenimiento, relaciones familiares complicadas y el precio de la fama mientras Hikaru lucha por encontrar su verdadera identidad en un mundo dominado por las apariencias.",
+              "sources" : [ "https://youtu.be/uTyuxbRiTOA?si=-S7H3r1fHOR7tRyK" ],
+              "subtitle" : "By YouTube",
+              "thumb" : "https://i.ytimg.com/vi/uTyuxbRiTOA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBqy6Rh5jOGQml6MJkLJZsJ9Cma7w",
+              "title" : "Oshi no ko"
+            },
+			{ "description" : "Neon Genesis Evangelion sigue a Shinji Ikari, un adolescente reclutado por NERV para pilotar un mecha gigante llamado Evangelion y proteger la humanidad de seres misteriosos conocidos como "Ángeles". La serie explora temas profundos como la identidad, la soledad y la naturaleza de la existencia mientras los personajes luchan contra sus propios demonios internos y los desafíos externos que enfrentan.",
+              "sources" : [ "https://youtu.be/9cVAVQih_pA?si=BBydYq-zXk4UtWjg" ],
+              "subtitle" : "By YouTube",
+              "thumb" : "https://i.ytimg.com/vi/9cVAVQih_pA/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAbeF_EiWF3gAbrGqAmGCswTA5rhg",
+              "title" : "Evangelion"
+            },
+			{ "description" : "The Promised Neverland sigue a un grupo de huérfanos liderados por Emma, Norman y Ray, quienes descubren que su amado orfanato es en realidad una granja donde los niños son criados como alimento para demonios. La serie sigue su lucha por escapar de su destino y descubrir la verdad detrás de su mundo aparentemente perfecto.",
+              "sources" : [ "https://youtu.be/nQQ1IYESt4I?si=YNT9HMLs_X_FI7tS" ],
+              "subtitle" : "By YouTube",
+              "thumb" : "https://i.ytimg.com/vi/nQQ1IYESt4I/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDkZixFNsP8ptUY9mm3uEV1Fhir2w",
+              "title" : "Promised Neverland"
+            }
+    ]}]};
+
+    var jsonString= JSON.stringify(mediaJSON);
+   document.write(jsonString);
+</script>
