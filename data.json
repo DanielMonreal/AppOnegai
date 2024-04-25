@@ -1,5 +1,4 @@
-<script type="text/javascript">
-	var mediaJSON = { "categories" : [ { "name" : "Movies",
+{ "categories" : [ { "name" : "Movies",
         "videos" : [ 
 		    { "description" : "Sword Art Online sigue a Kirito en un mundo virtual donde debe completar niveles para salir. La serie explora acción, drama y romance mientras enfrenta desafíos y peligros que afectan su vida real.",
               "sources" : [ "https://youtu.be/ondZD0FotBI?si=gDDg8QWX6m5J2vhO" ],
